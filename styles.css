@@ -1,0 +1,175 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #edeeee;
+    color: #0f0f0f;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #123646;
+    color: #ffffff;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.main2 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    margin-bottom: 150px;
+}
+
+h1 {
+    color: #edeeee;
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+dl {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+dt {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-style: italic;
+}
+dd {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+
+    padding: 20px 40px;
+    background-color: #123646;
+    color: #edeeee;
+    border: none;
+    margin: 30px;
+    transition: background-color 0.3s ease;
+
+    position: relative; 
+    left: 20px;
+
+    border-radius: 10px;
+
+
+}
+
+.goBack {
+    font-size: 20px;
+
+    padding: 20px 40px;
+    background-color: #0f0f0f;
+    color: #edeeee;
+    border: none;
+    margin: 30px;
+    transition: background-color 0.3s ease;
+
+    position: relative; 
+
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #123646;
+    color: #edeeee;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.goTo:hover {
+    background-color: #0f0f0f;
+}
+.goBack:hover {
+    background-color: #123646;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+    border-radius: 20px;
+    
+}
+
+.imageHor {
+    margin-left: 90px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: auto;
+    
+}
+
+.imageHor2 {
+    margin-left: 150px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: auto;
+    
+}
+
+.imageHor3 {
+    margin-left: 0px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: 10px;
+
+    border-radius: 20px;
+
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+th, td {
+    padding: 30px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #123646;
+    color: white;
+}
+
+video {
+    border-radius: 20px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
